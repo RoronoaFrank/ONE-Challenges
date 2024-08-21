@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf36d4e144.js" crossorigin="anonymous"></script>
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <div class="contenedor__principal">
+        <header>
+            <img src="Assets/Logo alura.png" class="logo__img">
+        </header>   
+        <main>
+            <div class="columna__input"> 
+                <textarea id="textoIngresado" placeholder="Ingrese el texto aquí:" class="recuadro__texto__ingresado"></textarea>
+                <p class="condicion"><i class="fa-solid fa-circle-exclamation"></i>Solo letras minusculas y sin acentos!</p>
+                <div class="botones__input">
+                    <button onclick="encriptador()" class="boton__encriptador"><strong>Encriptar</strong></button>
+                    <button onclick="desencriptador()" class="boton__desencriptador"><strong>Desencriptar</strong></button>    
+                </div>
+            </div> 
+            <div class="columna__output">
+                <p id="textoFinal" class="texto__output"></p>
+                <img id="imgSinTexto" src="Assets/FondoTextoOutput.png" class="robot">
+                <p id="estatusApp" class="estatus">Ningún mensaje fue <br>encontrado</p>
+                <p id="notificacion" class="instruccion">Para usar esta app ingresa el texto que desees, después pulsa los botones de encriptar o desencriptar</p>
+                <div class="botones__output">
+                    <button onclick="copiarTexto()" class="boton__copiar"><i class="fa-regular fa-copy"></i></button>
+                    <button onclick="reiniciar()" class="boton__reset"><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p class="autor"><strong>DeV Francisco Javier Cruz Silva</strong></p> 
+    </footer>
+    <script src="app.js"></script> 
+</body>
+</html>
