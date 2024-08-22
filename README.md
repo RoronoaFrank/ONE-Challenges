@@ -61,17 +61,19 @@ La aplicación permite encriptar y desencriptar texto de manera sencilla y rápi
    - La aplicación valida que el texto cumpla con la condición de "solo letras minúsculas y sin acentos".
    - Se genera un nuevo texto encriptado que se muestra en la pantalla del usuario.
    - Aparece un botón adicional para copiar el texto encriptado.
+     
+![Encriptar Texto](https://github.com/user-attachments/assets/33d280b7-dbe5-491c-b252-cd5e142ba258)
 
 2. **Desencriptar texto:**
    - El usuario ingresa el texto encriptado en el área de texto.
    - Selecciona el botón "Desencriptar".
    - La aplicación valida el texto y genera el texto desencriptado.
+     
+![Desencriptar Texto](https://github.com/user-attachments/assets/b6f0f7eb-df1f-48da-b4be-aa1e08cd1109)
 
 Además, la aplicación cuenta con un botón para reiniciar el proceso, el cual está siempre visible.
 
-![Encriptar Texto](https://github.com/user-attachments/assets/33d280b7-dbe5-491c-b252-cd5e142ba258)
-![Copiar y reiniciar app](https://github.com/user-attachments/assets/b6f0f7eb-df1f-48da-b4be-aa1e08cd1109)
-![Desencriptar Texto](https://github.com/user-attachments/assets/79253b04-f10d-40dd-b820-080a3bb028bf)
+![Copiar y reiniciar app](https://github.com/user-attachments/assets/79253b04-f10d-40dd-b820-080a3bb028bf)
 
 ## Tecnologías Utilizadas
 El proyecto fue desarrollado utilizando las siguientes tecnologías:
