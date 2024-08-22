@@ -47,3 +47,44 @@ Esta app es ideal para **personas que deseen proteger sus mensajes** en situacio
 
 Esta aplicación fue desarrollada como parte de los retos del programa **ONE-Alura Latam 2024**, un programa reconocido por su enfoque en la enseñanza de habilidades tecnológicas. El encriptador de texto es uno de los proyectos demostrativos de la primera fase del programa, cuyo objetivo es adquirir y demostrar habilidades en el desarrollo web, logrando con éxito el paso a la siguiente fase del programa.
 
+## Estado del Proyecto
+El proyecto **Encriptador de Texto** está actualmente **terminado** conforme a los requisitos establecidos en el reto del programa ONE. Sin embargo, se planea mejorar el nivel y complejidad de la encriptación, así como añadir funciones adicionales que mejoren la usabilidad del proyecto. Aunque se prevén futuras mejoras, la versión actual está completamente funcional y disponible para su uso.
+
+![Captura de la Interfaz](https://github.com/user-attachments/assets/812f426a-2fb5-471f-acf3-370696970731)
+
+## Demostración de Funciones y Aplicaciones
+La aplicación permite encriptar y desencriptar texto de manera sencilla y rápida:
+
+1. **Encriptar texto:**
+   - El usuario ingresa el texto deseado en el área de texto "Ingrese el texto aquí".
+   - Selecciona el botón "Encriptar".
+   - La aplicación valida que el texto cumpla con la condición de "solo letras minúsculas y sin acentos".
+   - Se genera un nuevo texto encriptado que se muestra en la pantalla del usuario.
+   - Aparece un botón adicional para copiar el texto encriptado.
+
+2. **Desencriptar texto:**
+   - El usuario ingresa el texto encriptado en el área de texto.
+   - Selecciona el botón "Desencriptar".
+   - La aplicación valida el texto y genera el texto desencriptado.
+
+Además, la aplicación cuenta con un botón para reiniciar el proceso, el cual está siempre visible.
+
+![Encriptar Texto](https://github.com/user-attachments/assets/33d280b7-dbe5-491c-b252-cd5e142ba258)
+![Copiar y reiniciar app](https://github.com/user-attachments/assets/b6f0f7eb-df1f-48da-b4be-aa1e08cd1109)
+![Desencriptar Texto](https://github.com/user-attachments/assets/79253b04-f10d-40dd-b820-080a3bb028bf)
+
+## Tecnologías Utilizadas
+El proyecto fue desarrollado utilizando las siguientes tecnologías:
+
+- **HTML5**: Para la estructura de la aplicación.
+- **JavaScript**: Para la lógica de encriptación, desencriptación y validación de texto.
+- **CSS3**: Para la estilización y diseño de la interfaz.
+
+## Desarrollador del Proyecto
+Este proyecto fue desarrollado por **Francisco Javier Cruz Silva**, quien ha trabajado en todas las áreas del desarrollo: desde la estructura HTML, la lógica JavaScript, hasta la estilización con CSS.
+
+## Licencia
+Este proyecto fue desarrollado como parte del reto del programa ONE, y no está destinado a generar ingresos. Siéntete libre de utilizar el código según tus necesidades.
+
+
+
