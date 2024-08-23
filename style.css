@@ -87,7 +87,6 @@ main{
     outline: none;
     resize: none;
     padding: 1%;
-    /*hasta aqui todo ok*/
 }
 
 /*Los webkit siguientes estilizan la barra scroll del 
@@ -118,7 +117,7 @@ i{
     width: 100%;
     height: 20%;/*respecto a columna__input*/
     display: flex;
-    justify-content: space-around;/*esto no esta definido*/
+    justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
 }
@@ -318,8 +317,6 @@ footer{
     );
 }
 
-/*esta parte del código ya esta correcta, NO MODIFICAR!!*/
-
 /*Vista versión tablet*/
 @media(max-width:1024px){
     body {
@@ -424,11 +421,10 @@ footer{
         align-items: center;
         padding-bottom: 1.5%;
     }
-} /*Vista en tablet terminada!!!! */
+}
 
 /*Vista versión celular*/
 @media(max-width:767px){
-    /*falta acomodar todo en este tamaño de pantalla*/
     body {
         min-height: 100%;
     }
@@ -438,7 +434,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid red;
     }
 
     header{
@@ -462,7 +457,6 @@ footer{
         min-height: 90%;/*respecto a contenedor__principal*/
         display: flex;
         justify-content: space-between;
-        border: 1px solid wheat;
     }
 
     .columna__input{
@@ -472,7 +466,6 @@ footer{
         padding: 0;
         border: 0;
         margin: 0;
-        border: 1px solid red;
     }
 
     .recuadro__texto__ingresado{
@@ -492,7 +485,6 @@ footer{
         padding: 0;
         border: 0;
         margin: 0;
-        border: 1px solid white;
     }
 
     .texto__output{
